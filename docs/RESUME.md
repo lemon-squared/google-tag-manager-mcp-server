@@ -49,6 +49,10 @@ Add these after generic container edits work:
 - Require `analytics_storage` on the Google tag.
 - Later, import each `<vendor>-tag` into a server container and set Tag Execution Consent Settings.
 
+## Business Profile MCP
+
+Scaffolded at [lemon-squared/google-business-profile-mcp-server](https://github.com/lemon-squared/google-business-profile-mcp-server). Continue that work in its own `docs/RESUME.md`. Do not put those tools in this repository.
+
 ## Order of work
 
 1. Implement the container tools in `packages/core`, then make `packages/cli` an stdio MCP server.
